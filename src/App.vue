@@ -138,10 +138,9 @@ watch(hideCompleted, () => {
       </div>
 
       <div
-        v-if="totalPages > 1"
         class="mt-4 md:mt-6 flex justify-between items-center gap-2 pb-4 sm:pb-0"
       >
-        <div class="flex items-center justify-between">
+        <div v-if="items.length" class="flex items-center justify-between">
           <label class="flex items-center gap-2 cursor-pointer group">
             <div class="relative">
               <input
@@ -173,7 +172,7 @@ watch(hideCompleted, () => {
             >
           </label>
         </div>
-        <div class="flex justify-between items-center">
+        <div v-if="totalPages > 1" class="flex justify-between items-center">
           <button
             @click="setPage(currentPage - 1)"
             :disabled="currentPage === 1"
