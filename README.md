@@ -36,7 +36,7 @@ Building this app was a great journey in mastering Vue 3. Here are some key tech
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/MaiBach22/Vue_shopping-list-app](https://github.com/MaiBach22/Vue_shopping-list-app)
+    git clone https://github.com/MaiBach22/Vue_shopping-list-app
     cd Vue_shopping-list-app
     ```
 
