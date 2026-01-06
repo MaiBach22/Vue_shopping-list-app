@@ -61,15 +61,18 @@ Building this app was a great journey in mastering Vue 3. Here are some key tech
 
 ## 📸 Preview
 
-| Desktop Version | Mobile Version |
-| :-------------- | :------------- |
+| Desktop Version |
+| :-------------- | 
 
-| ![Desktop](./public/screenshots/desktop-preview_1.png)
-| ![Desktop](./public/screenshots/desktop-preview_2.png)
-| ![Desktop](./public/screenshots/desktop-preview_3.png)
-| ![Mobile](./public/screenshots/mobile-preview_1.png)
-| ![Mobile](./public/screenshots/mobile-preview_2.png)
-| ![Mobile](./public/screenshots/mobile-preview_3.png) |
+| ![Desktop](./public/desktop-preview_1.png)
+| ![Desktop](./public/desktop-preview_2.png)
+| ![Desktop](./public/desktop-preview_3.png)
+
+| Mobile Version|
+|:------------- |
+| ![Mobile](./public/mobile-preview_1.png)
+| ![Mobile](./public/mobile-preview_2.png)
+| ![Mobile](./public/mobile-preview_3.png) |
 
 ---
 
