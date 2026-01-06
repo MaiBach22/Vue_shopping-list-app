@@ -13,7 +13,7 @@ const hideCompleted = ref(false);
 const addItem = () => {
   if (newItem.value) {
     items.value.unshift({
-      id: items.value.length + 1,
+      id: Date.now(),
       label: newItem.value,
       purchased: false,
     });

@@ -1,38 +1,76 @@
-# shopping_list
+# 🛒 Modern Shopping List App
 
-This template should help get you started developing with Vue 3 in Vite.
+[![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)](https://vuejs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
-## Recommended IDE Setup
+A sleek, responsive, and interactive Shopping List application built with **Vue 3 (Composition API)** and **Tailwind CSS**. This project focuses on high-quality UX, smooth animations, and clean code architecture.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+🔗 **Live Demo:** [https://vue-shopping-list-app.vercel.app/](https://vue-shopping-list-app.vercel.app/)
 
-## Recommended Browser Setup
+---
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## ✨ Features
 
-## Customize configuration
+- **Dynamic Item Management:** Add items that instantly appear at the top of the list for better visibility.
+- **Custom Pagination:** Clean data presentation by limiting display to 4 items per page.
+- **Smart Filtering:** A "Hide Completed" toggle to declutter your list and focus on pending tasks.
+- **Premium UI/UX:**
+  - Custom SVG Checkboxes with a vibrant **Red-to-Orange gradient** to match the brand identity.
+  - Responsive design optimized for **Mobile, Tablet, and Desktop**.
+  - Interactive hover states and polished typography.
+- **Smooth Transitions:** Powered by Vue's `<TransitionGroup>` for fluid adding, removing, and filtering animations.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🧠 Challenges & Learnings
 
-## Project Setup
+Building this app was a great journey in mastering Vue 3. Here are some key technical challenges I solved:
 
-```sh
-npm install
-```
+- **Event Bubbling Management:** Used the `.stop` event modifier on the delete button to prevent triggering the "complete" toggle of the parent card.
+- **Complex List Transitions:** Implemented `absolute` positioning within `TransitionGroup` (using `.list-leave-active`) to ensure that remaining items slide up smoothly when one is deleted, preventing "jumpy" layout shifts.
+- **Responsive State Handling:** Managed pagination logic to automatically redirect users back to Page 1 when filters are applied or items are added, ensuring no "empty page" states.
+- **Advanced CSS Gradients:** Integrated custom hex-code gradients with Tailwind CSS to achieve a consistent 3D-effect UI across all components.
 
-### Compile and Hot-Reload for Development
+## 🚀 Installation & Setup
 
-```sh
-npm run dev
-```
+1.  **Clone the repository:**
 
-### Compile and Minify for Production
+    ```bash
+    git clone [https://github.com/MaiBach22/Vue_shopping-list-app](https://github.com/MaiBach22/Vue_shopping-list-app)
+    cd Vue_shopping-list-app
+    ```
 
-```sh
-npm run build
-```
+2.  **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3.  **Run development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+4.  **Build for production:**
+    ```bash
+    npm run build
+    ```
+
+---
+
+## 📸 Preview
+
+| Desktop Version | Mobile Version |
+| :-------------- | :------------- |
+
+| ![Desktop](./public/screenshots/desktop-preview_1.png)
+| ![Desktop](./public/screenshots/desktop-preview_2.png)
+| ![Desktop](./public/screenshots/desktop-preview_3.png)
+| ![Mobile](./public/screenshots/mobile-preview_1.png)
+| ![Mobile](./public/screenshots/mobile-preview_2.png)
+| ![Mobile](./public/screenshots/mobile-preview_3.png) |
+
+---
+
+Developed with ❤️ using Vue 3 and Tailwind CSS.
