@@ -8,7 +8,7 @@ const newItem = ref("");
 const itemsPerPage = 4;
 const currentPage = ref(1);
 
-const hideCompleted = ref("false");
+const hideCompleted = ref(false);
 
 const addItem = () => {
   if (newItem.value) {
