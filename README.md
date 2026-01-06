@@ -71,10 +71,11 @@ Building this app was a great journey in mastering Vue 3. Here are some key tech
 | Mobile Version |
 | :------------- |
 
-<img src="./public/mobile-preview_1.png" width="20%" title="Desktop">
-<img src="./public/mobile-preview_2.png" width="20%" title="Desktop">
-<img src="./public/mobile-preview_3.png" width="20%" title="Desktop">
-
+<p align="center">
+<img src="./public/mobile-preview_1.png" width="25%" title="Desktop">
+<img src="./public/mobile-preview_2.png" width="25%" title="Desktop">
+<img src="./public/mobile-preview_3.png" width="25%" title="Desktop">
+</p>
 ---
 
 Developed with ❤️ using Vue 3 and Tailwind CSS.
