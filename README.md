@@ -5,7 +5,9 @@
 [![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
-A sleek, responsive, and interactive Shopping List application built with **Vue 3 (Composition API)** and **Tailwind CSS**. This project focuses on high-quality UX, smooth animations, and clean code architecture.
+This is my personal project built while learning **Vue 3 (Composition API)** and **Tailwind CSS**. 
+The goal of this project was to practice core Vue concepts like Reactivity, 
+Props/Events, and List Transitions while creating a functional, real-world tool.
 
 🔗 **Live Demo:** [https://vue-shopping-list-app.vercel.app/](https://vue-shopping-list-app.vercel.app/)
 
