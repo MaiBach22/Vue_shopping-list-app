@@ -74,7 +74,7 @@ Building this app was a great journey in mastering Vue 3. Here are some key tech
 | Mobile Version|
 |:------------- |
 <p align="center">
-  <img src="./public/mobile-preview_1.png" width="500" title="Desktop">
+  <img src="./public/mobile-preview_1.png" width="200" title="Desktop">
 </p>
 
  ![Mobile](./public/mobile-preview_2.png)
